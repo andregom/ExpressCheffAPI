@@ -1,0 +1,13 @@
+package com.expresscheff.ExpressCheffAPI.model;
+
+public enum StatusEvento {
+    ORCAMENTO_SOLICITADO,
+    ORCAMENTO_ENVIADO,
+    ORCAMENTO_ACEITO,
+    ORCAMENTO_RECUSADO,
+    ORCAMENTO_PERDE_A_VALIDADE,
+    GERAR_CONTRATO,
+    EVENTO_AGENDADO,
+    CANCELADO,
+    CONCLUIDO
+}
